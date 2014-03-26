@@ -1,2 +1,2 @@
-dependencies: /Users/HmD/Documents/ABTagView/ABTagView/ABTag.m \
-  /Users/HmD/Documents/ABTagView/ABTagView/ABTag.h
+dependencies: /Users/HmD/Documents/ABTagView/ABTagView/Classes/ABTag.m \
+  /Users/HmD/Documents/ABTagView/ABTagView/Classes/ABTag.h
