@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A62FEE318E39BC800FAEE92 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8A62FEE218E39BC800FAEE92 /* LICENSE.txt */; };
 		8A74BCDE18E33866006BF155 /* ABTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A74BCDD18E33866006BF155 /* ABTagView.m */; };
 		8A74BCE418E33C89006BF155 /* ABTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A74BCE318E33C89006BF155 /* ABTag.m */; };
 		8A97125818E3329700EA0D1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A97125718E3329700EA0D1E /* Foundation.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A62FEE218E39BC800FAEE92 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		8A74BCDC18E33866006BF155 /* ABTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTagView.h; sourceTree = "<group>"; };
 		8A74BCDD18E33866006BF155 /* ABTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTagView.m; sourceTree = "<group>"; };
 		8A74BCDF18E33A06006BF155 /* ABTagViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTagViewDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		8A97124B18E3329700EA0D1E = {
 			isa = PBXGroup;
 			children = (
+				8A62FEE218E39BC800FAEE92 /* LICENSE.txt */,
 				8AD611E918E34C1000602F7B /* README.md */,
 				8A97125D18E3329700EA0D1E /* ABTagView */,
 				8A97127F18E3329700EA0D1E /* ABTagViewTests */,
@@ -255,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A62FEE318E39BC800FAEE92 /* LICENSE.txt in Resources */,
 				8A97126E18E3329700EA0D1E /* Main_iPad.storyboard in Resources */,
 				8A97127318E3329700EA0D1E /* Images.xcassets in Resources */,
 				8AD611EA18E34C1000602F7B /* README.md in Resources */,
