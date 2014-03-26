@@ -7,7 +7,7 @@
 //
 
 #import "ABTagView.h"
-#define DEFAULT_FONT [UIFont fontWithName:@"Helvetica-Neue" size:12.0f]
+#define DEFAULT_FONT [UIFont fontWithName:@"HelveticaNeue-CondensedBold" size:13.0f]
 
 @interface ABTagView ()
 @property (nonatomic, strong) UIView *tagsView;
@@ -18,7 +18,7 @@
 @end
 
 @implementation ABTagView
-@synthesize tags, tagDelegate, tagBackground, tagBorderColor;
+@synthesize tags, tagDelegate, tagBackground, tagBorderColor, tagTextColor;
 
 
 #pragma mark - init
@@ -171,12 +171,13 @@
 
         if (self.tagBorderColor) tag.borderColor = self.tagBorderColor;
         if (self.tagBackground)  tag.backgroundColor = self.tagBackground;
+        if (self.tagTextColor)   tag.textColor = self.tagTextColor;
 
-        //tap to remove
+        //tap action
         [tag addTarget:self action:@selector(tagTapped:) forControlEvents:UIControlEventTouchUpInside];
 
         CGRect tagFrame         = tag.frame;
-        tagFrame.origin.x       = _tagsView.frame.size.width;
+        tagFrame.origin.x       = _tagsView.frame.size.width + 4;
         tagFrame.origin.y       = ((self.frame.size.height - tag.frame.size.height) / 2);
         tag.frame               = tagFrame;
 
@@ -188,7 +189,7 @@
         i++;
     }
 
-    // If there's not enough room, free up first tags and reposition next ones
+    // If width is filled hide first tags and reposition next ones
     CGFloat missingWidth= (_tagsView.frame.size.width - self.frame.size.width + 40);
 
     if(missingWidth > 0){
@@ -219,7 +220,7 @@
             tagsFrame.size.width   += (tag.frame.size.width + 5);
             _tagsView.frame          = tagsFrame;
 
-            //tap to remove
+            //tap action
             [tag addTarget:self action:@selector(tagTapped:) forControlEvents:UIControlEventTouchUpInside];
 
             [_tagsView addSubview: tag];
@@ -233,13 +234,9 @@
 -(void)tagTapped:(id)sender
 {
     if(tags.count > 0 && self.text.length == 0){
-        if([tagDelegate respondsToSelector:@selector(tagField:tagRemoved:)]){
-            NSString *tappedTag = tags[[sender tag]];
-            [tagDelegate tagField:self tagRemoved: tappedTag];
-            [self.tags removeObjectAtIndex:[sender tag]];
-        }
-        
-        [self tagsLayout];
+        NSLog(@"tapped tag %i", [sender tag]);
+        if([tagDelegate respondsToSelector:@selector(tagField:tagTapped:)])
+            [tagDelegate tagField: self tagTapped:[sender tag]];
     }
     
 }

@@ -19,6 +19,7 @@
 @property (nonatomic, weak) UIFont  *selectedFont;
 @property (nonatomic, weak) UIColor *tagBackground;
 @property (nonatomic, weak) UIColor *tagBorderColor;
+@property (nonatomic, weak) UIColor *tagTextColor;
 //ABTagView delegate
 @property (unsafe_unretained) id<ABTagViewDelegate> tagDelegate;
 

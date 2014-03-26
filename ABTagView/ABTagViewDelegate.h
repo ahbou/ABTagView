@@ -25,4 +25,7 @@
 // Whether a tag should be added. Defaults to YES
 -(BOOL) tagField: (ABTagView *) tagField shouldAddTag: (NSString *) tag;
 
+//Called by delegate when a tag is tapped
+-(void) tagField: (ABTagView *) tagField tagTapped: (int) tagIndex;
+
 @end
