@@ -24,6 +24,7 @@
 		8A97127C18E3329700EA0D1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A97125B18E3329700EA0D1E /* UIKit.framework */; };
 		8A97128418E3329700EA0D1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A97128218E3329700EA0D1E /* InfoPlist.strings */; };
 		8A97128618E3329700EA0D1E /* ABTagViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A97128518E3329700EA0D1E /* ABTagViewTests.m */; };
+		8AD611EA18E34C1000602F7B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8AD611E918E34C1000602F7B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		8A97128118E3329700EA0D1E /* ABTagViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABTagViewTests-Info.plist"; sourceTree = "<group>"; };
 		8A97128318E3329700EA0D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A97128518E3329700EA0D1E /* ABTagViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABTagViewTests.m; sourceTree = "<group>"; };
+		8AD611E918E34C1000602F7B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		8A97124B18E3329700EA0D1E = {
 			isa = PBXGroup;
 			children = (
+				8AD611E918E34C1000602F7B /* README.md */,
 				8A97125D18E3329700EA0D1E /* ABTagView */,
 				8A97127F18E3329700EA0D1E /* ABTagViewTests */,
 				8A97125618E3329700EA0D1E /* Frameworks */,
@@ -254,6 +257,7 @@
 			files = (
 				8A97126E18E3329700EA0D1E /* Main_iPad.storyboard in Resources */,
 				8A97127318E3329700EA0D1E /* Images.xcassets in Resources */,
+				8AD611EA18E34C1000602F7B /* README.md in Resources */,
 				8A97126B18E3329700EA0D1E /* Main_iPhone.storyboard in Resources */,
 				8A97126218E3329700EA0D1E /* InfoPlist.strings in Resources */,
 			);
