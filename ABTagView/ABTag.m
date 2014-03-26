@@ -14,6 +14,7 @@
 
 -(id)initWithTag:(NSString *)tag andIndex:(NSInteger)index{
     if(self = [super init]){
+        //Default init
         self.backgroundColor    = [UIColor clearColor];
         self.layer.cornerRadius = 8;
         self.layer.masksToBounds= YES;
