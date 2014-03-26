@@ -16,7 +16,6 @@
 //Tag title
 @property (nonatomic, strong) NSString  *value;
 @property (nonatomic, strong) UIColor   *borderColor;
-@property (nonatomic, strong) UIColor   *bgColor;
 @property (nonatomic, strong) UIFont    *font;
 @property (nonatomic, strong) UIColor   *textColor;
 

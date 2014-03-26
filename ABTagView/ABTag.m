@@ -10,12 +10,12 @@
 
 @implementation ABTag
 @synthesize value;
-@dynamic borderColor, font, textColor, bgColor;
+@dynamic borderColor, font, textColor;
 
 -(id)initWithTag:(NSString *)tag andIndex:(NSInteger)index{
     if(self = [super init]){
         self.backgroundColor    = [UIColor clearColor];
-        self.layer.cornerRadius = 10;
+        self.layer.cornerRadius = 8;
         self.layer.masksToBounds= YES;
         self.layer.borderColor  = [UIColor colorWithRed:0/255.0 green:174/255.0 blue:239 /255.0 alpha:1.00].CGColor;
         self.layer.borderWidth  = 1.75;

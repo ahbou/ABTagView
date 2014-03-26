@@ -7,7 +7,7 @@
 //
 
 #import "ABTagView.h"
-#define DEFAULT_FONT [UIFont fontWithName:@"Helvetica-Neue" size:13.0f]
+#define DEFAULT_FONT [UIFont fontWithName:@"Helvetica-Neue" size:12.0f]
 
 @interface ABTagView ()
 @property (nonatomic, strong) UIView *tagsView;
@@ -18,8 +18,7 @@
 @end
 
 @implementation ABTagView
-@synthesize tags;
-@synthesize tagDelegate;
+@synthesize tags, tagDelegate, tagBackground, tagBorderColor;
 
 
 #pragma mark - init
@@ -128,7 +127,7 @@
     self.backgroundColor        = self.backgroundColor;
     self.opaque                 = NO;
     self.autocorrectionType     = UITextAutocorrectionTypeNo;
-    self.borderStyle            = UITextBorderStyleNone;
+    self.borderStyle            = self.borderStyle;
 
     tags                        = [@[] mutableCopy];
 
@@ -170,12 +169,15 @@
             tag.font = DEFAULT_FONT;
         }
 
+        if (self.tagBorderColor) tag.borderColor = self.tagBorderColor;
+        if (self.tagBackground)  tag.backgroundColor = self.tagBackground;
+
         //tap to remove
         [tag addTarget:self action:@selector(tagTapped:) forControlEvents:UIControlEventTouchUpInside];
 
         CGRect tagFrame         = tag.frame;
         tagFrame.origin.x       = _tagsView.frame.size.width;
-        tagFrame.origin.y       = ((self.frame.size.height - tag.frame.size.height) / 2) + 6;
+        tagFrame.origin.y       = ((self.frame.size.height - tag.frame.size.height) / 2);
         tag.frame               = tagFrame;
 
         tagsFrame               = _tagsView.frame;
