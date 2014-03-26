@@ -1,0 +1,801 @@
+TABTagView
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/HmD/Documents/ABTagView/Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch.pch ABTagView/ABTagView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTag.o /Users/HmD/Documents/ABTagView/ABTagView/ABTag.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVAppDelegate.o /Users/HmD/Documents/ABTagView/ABTagView/TVAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/main.o /Users/HmD/Documents/ABTagView/ABTagView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView.o /Users/HmD/Documents/ABTagView/ABTagView/ABTagView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVViewController.o /Users/HmD/Documents/ABTagView/ABTagView/TVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView normal i386
+cCompileStoryboard /Users/HmD/Documents/ABTagView/ABTagView/Base.lproj/Main_iPad.storyboard
+cCompileStoryboard /Users/HmD/Documents/ABTagView/ABTagView/Base.lproj/Main_iPhone.storyboard
+cCopyStringsFile /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/en.lproj/InfoPlist.strings ABTagView/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app /Users/HmD/Documents/ABTagView/ABTagView/Images.xcassets
+cProcessInfoPlistFile /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/Info.plist /Users/HmD/Documents/ABTagView/ABTagView/ABTagView-Info.plist
+cGenerateDSYMFile /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app.dSYM /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView
+cTouch /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531F189400000000000003B4
+t1394546836
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F18A6000000000000019E
+t1394546854
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000531F18AB000000000058E0E0
+t1394546859
+s5824736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000531F18AC00000000005B82F0
+t1394546860
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000531F18AC0000000000446820
+t1394546860
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c00000000531F18AD00000000003599D0
+t1394546861
+s3512784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c00000000531F18AE00000000002FC3B0
+t1394546862
+s3130288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000531F18AE000000000004B000
+t1394546862
+s307200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531F18B0000000000088D8C0
+t1394546864
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000531F18B40000000000037680
+t1394546868
+s226944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000531F18B5000000000048F720
+t1394546869
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000531F18B5000000000013FD70
+t1394546869
+s1310064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531F18BC0000000001F1DE10
+t1394546876
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000531F18EE00000000002BC360
+t1394546926
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c00000000531F19050000000000002338
+t1394546949
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c00000000531F1909000000000008D370
+t1394546953
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c00000000531F19080000000000392E20
+t1394546952
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c00000000530D410600000000000141F0
+t1393377542
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c00000000531F19090000000000014A80
+t1394546953
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c00000000531F19090000000000033BA0
+t1394546953
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c00000000531F1909000000000001CFB0
+t1394546953
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c00000000531F1909000000000001B2B0
+t1394546953
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c00000000531F190900000000000C9570
+t1394546953
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c00000000531F19090000000000063280
+t1394546953
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c00000000531F19090000000000008880
+t1394546953
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c00000000531F19090000000000015080
+t1394546953
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c00000000531F190900000000000230F0
+t1394546953
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c00000000531F1909000000000000E380
+t1394546953
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c00000000531F19090000000000089380
+t1394546953
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c00000000531F19090000000000017320
+t1394546953
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000531F19090000000000039CD0
+t1394546953
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c00000000531F1909000000000000B0B0
+t1394546953
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c00000000531F190A0000000000167E80
+t1394546954
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c00000000531F190900000000000106A0
+t1394546953
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c00000000531F1909000000000001CE40
+t1394546953
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c00000000531F190900000000000740C0
+t1394546953
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c00000000531F1909000000000006CA60
+t1394546953
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c00000000531F1909000000000001BAD0
+t1394546953
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c00000000531F19090000000000084A20
+t1394546953
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531F19170000000000000ADC
+t1394546967
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c00000000531F1917000000000000514C
+t1394546967
+s20812
+
+N/Users/HmD/Documents/ABTagView/ABTagView/ABTag.h
+c000000005333092300000000000001FB
+t1395853603
+s507
+
+N/Users/HmD/Documents/ABTagView/ABTagView/ABTag.m
+c00000000533309FB0000000000000755
+t1395853819
+s1877
+
+N/Users/HmD/Documents/ABTagView/ABTagView/ABTagView-Info.plist
+c000000005332FB170000000000000635
+t1395850007
+s1589
+
+N/Users/HmD/Documents/ABTagView/ABTagView/ABTagView-Prefix.pch
+c000000005332FB170000000000000158
+t1395850007
+s344
+
+N/Users/HmD/Documents/ABTagView/ABTagView/ABTagView.h
+c0000000053330CCF0000000000000277
+t1395854543
+s631
+
+N/Users/HmD/Documents/ABTagView/ABTagView/ABTagView.m
+c0000000053330FC90000000000001ED2
+t1395855305
+s7890
+
+N/Users/HmD/Documents/ABTagView/ABTagView/ABTagViewDelegate.h
+c0000000053330FC9000000000000035A
+t1395855305
+s858
+
+N/Users/HmD/Documents/ABTagView/ABTagView/Base.lproj/Main_iPad.storyboard
+c000000005333107A0000000000000AC1
+t1395855482
+s2753
+
+N/Users/HmD/Documents/ABTagView/ABTagView/Base.lproj/Main_iPhone.storyboard
+c00000000533307730000000000000AC8
+t1395853171
+s2760
+
+N/Users/HmD/Documents/ABTagView/ABTagView/Images.xcassets
+c000000005332FB170000000000000088
+t1395850007
+s136
+
+N/Users/HmD/Documents/ABTagView/ABTagView/TVAppDelegate.h
+c000000005332FB170000000000000120
+t1395850007
+s288
+
+N/Users/HmD/Documents/ABTagView/ABTagView/TVAppDelegate.m
+c000000005332FB1700000000000007E4
+t1395850007
+s2020
+
+N/Users/HmD/Documents/ABTagView/ABTagView/TVViewController.h
+c000000005332FB1700000000000000E2
+t1395850007
+s226
+
+N/Users/HmD/Documents/ABTagView/ABTagView/TVViewController.m
+c000000005333118F000000000000058D
+t1395855759
+s1421
+
+N/Users/HmD/Documents/ABTagView/ABTagView/en.lproj/InfoPlist.strings
+c000000005332FB17000000000000002D
+t1395850007
+s45
+
+N/Users/HmD/Documents/ABTagView/ABTagView/main.m
+c000000005332FB17000000000000015C
+t1395850007
+s348
+
+N/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTag.o
+t1395853820
+s52596
+
+N/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView.LinkFileList
+c000000005333057A00000000000002AF
+t1395852666
+s687
+
+N/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView.o
+t1395855305
+s81768
+
+N/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVAppDelegate.o
+t1395852137
+s62440
+
+N/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVViewController.o
+t1395855759
+s53912
+
+N/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/main.o
+t1395852137
+s3516
+
+N/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/assetcatalog_dependencies.txt
+t1395852233
+s358
+
+N/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/assetcatalog_generated_info.plist
+t1395852233
+s525
+
+N/Users/HmD/Documents/ABTagView/Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch.pch
+t1395852136
+s115632
+
+N/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app
+t1395855759
+s306
+
+N/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app.dSYM
+t1395855717
+s102
+
+N/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView
+t1395855759
+s50552
+
+N/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/Base.lproj/Main_iPad.storyboardc
+t1395855485
+s170
+
+N/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/Base.lproj/Main_iPhone.storyboardc
+t1395853172
+s170
+
+N/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/Info.plist
+t1395852233
+s1288
+
+N/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/PkgInfo
+t1395852233
+s8
+
+N/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/en.lproj/InfoPlist.strings
+t1395852232
+s42
+
+N/usr/lib/libSystem.B.dylib
+c000000005267A160000000000000E6D0
+t1382523232
+s59088
+
+N/usr/lib/system/libcache.dylib
+c000000005267A1820000000000012A00
+t1382523266
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c000000005267A147000000000002E320
+t1382523207
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c000000005267A1600000000000021860
+t1382523232
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c000000005267A181000000000001B620
+t1382523265
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c000000005267A18100000000000BD920
+t1382523265
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c00000000530D410600000000000141F0
+t1393377542
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c000000005267A182000000000000A120
+t1382523266
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c00000000530D4106000000000001D550
+t1393377542
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c000000005267A1800000000000014EE0
+t1382523264
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c000000005267A1860000000000010380
+t1382523270
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c000000005267A186000000000000C4C0
+t1382523270
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c000000005267A18200000000000357A0
+t1382523266
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c000000005267A182000000000000C070
+t1382523266
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c00000000530299D10000000000168D00
+t1392679377
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c00000000530D41060000000000010630
+t1393377542
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c00000000530D4106000000000001DF10
+t1393377542
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c000000005267A1600000000000075B00
+t1382523232
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c00000000530299D0000000000007CCE0
+t1392679376
+s511200
+
+N/usr/lib/system/libsystem_m.dylib
+c000000005267A16000000000000766C0
+t1382523232
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c00000000530299D00000000000044DC0
+t1392679376
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c000000005267A1600000000000021FA0
+t1382523232
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c00000000530D4106000000000002D920
+t1393377542
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c000000005267A183000000000001E570
+t1382523267
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c00000000530D4106000000000000CC70
+t1393377542
+s52336
+
+N/usr/lib/system/libunc.dylib
+c000000005267A178000000000000C3F0
+t1382523256
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c000000005267A18300000000000199F0
+t1382523267
+s104944
+
+CBuild AST from /Users/HmD/Documents/ABTagView/ABTagView/ABTag.m
+r0
+
+CBuild AST from /Users/HmD/Documents/ABTagView/ABTagView/ABTagView.m
+r0
+
+CBuild AST from /Users/HmD/Documents/ABTagView/ABTagView/ABTagViewDelegate.m
+r0
+
+CBuild AST from /Users/HmD/Documents/ABTagView/ABTagView/ABTextView.m
+r0
+
+CBuild AST from /Users/HmD/Documents/ABTagView/ABTagView/TVAppDelegate.m
+r0
+
+CBuild AST from /Users/HmD/Documents/ABTagView/ABTagView/TVViewController.m
+r0
+
+CBuild AST from /Users/HmD/Documents/ABTagView/ABTagView/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4581760f49e3b841^c520780f49e3b841^---0#1#1#--18"Check dependencies36"B2AD2FD2-40D9-4672-ABDC-E3137134C193-
+
+CCompileAssetCatalog /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app /Users/HmD/Documents/ABTagView/ABTagView/Images.xcassets
+s417545032.264781
+e417545033.111517
+r1
+xCompileAssetCatalog
+x/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app
+x/Users/HmD/Documents/ABTagView/ABTagView/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/LaunchImage-700-568h@2x.png
+o/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/Assets.car
+o/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CompileAssetCatalog Build/Products/Debug-iphonesimulator/ABTagView.app ABTagView/Images.xcassets96"CompileAssetCatalog Build/Products/Debug-iphonesimulator/ABTagView.app ABTagView/Images.xcassetsdbdd43483be3b841^f88c1c493be3b841^-386"/* com.apple.actool.compilation-results *//Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/LaunchImage-700-568h@2x.png/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/Assets.car/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@64"file:///Users/HmD/Documents/ABTagView/ABTagView/Images.xcassets/0000000000000000^1135"CompileAssetCatalog Build/Products/Debug-iphonesimulator/ABTagView.app ABTagView/Images.xcassets    cd /Users/HmD/Documents/ABTagView    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --target-device ipad --compress-pngs --compile /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app /Users/HmD/Documents/ABTagView/ABTagView/Images.xcassets36"4926C630-2988-48FC-9224-086F26C06B7E-
+bA442B72F-2F8E-40C8-B3AA-8F3B34AF8652
+
+CCompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTag.o /Users/HmD/Documents/ABTagView/ABTagView/ABTag.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417546619.939433
+e417546620.220077
+r1
+xCompileC
+xBuild/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTag.o
+x/Users/HmD/Documents/ABTagView/ABTagView/ABTag.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/HmD/Documents/ABTagView/ABTagView/ABTag.m
+d/Users/HmD/Documents/ABTagView/ABTagView/ABTag.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/HmD/Documents/ABTagView/ABTagView/ABTag.m196"CompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTag.o ABTagView/ABTag.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler33e0f07b41e3b841^7860387c41e3b841^---0#0#1#-19%DVTDocumentLocation2@55"file:///Users/HmD/Documents/ABTagView/ABTagView/ABTag.m0000000000000000^3557"CompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTag.o ABTagView/ABTag.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/HmD/Documents/ABTagView    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/HmD/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-generated-files.hmap -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-own-target-headers.hmap -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-all-target-headers.hmap -iquote /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-project-headers.hmap -I/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/DerivedSources/i386 -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/DerivedSources -F/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator -include /Users/HmD/Documents/ABTagView/Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch -MMD -MT dependencies -MF /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTag.d --serialize-diagnostics /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTag.dia -c /Users/HmD/Documents/ABTagView/ABTagView/ABTag.m -o /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTag.o36"1D0540C1-27E4-4D5A-9908-38CC5CE67DCF-
+b2DAA4A77-0EBB-4D8C-9AC5-B4337695C677
+
+CCompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView.o /Users/HmD/Documents/ABTagView/ABTagView/ABTagView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417548105.210643
+e417548105.508610
+r1
+xCompileC
+xBuild/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView.o
+x/Users/HmD/Documents/ABTagView/ABTagView/ABTagView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/HmD/Documents/ABTagView/ABTagView/ABTagView.m
+d/Users/HmD/Documents/ABTagView/ABTagView/ABTagView.h
+d/Users/HmD/Documents/ABTagView/ABTagView/ABTagViewDelegate.h
+d/Users/HmD/Documents/ABTagView/ABTagView/ABTag.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/HmD/Documents/ABTagView/ABTagView/ABTagView.m204"CompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView.o ABTagView/ABTagView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercf4a364947e3b841^e468824947e3b841^---0#0#1#-19%DVTDocumentLocation2@59"file:///Users/HmD/Documents/ABTagView/ABTagView/ABTagView.m0000000000000000^3581"CompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView.o ABTagView/ABTagView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/HmD/Documents/ABTagView    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/HmD/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-generated-files.hmap -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-own-target-headers.hmap -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-all-target-headers.hmap -iquote /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-project-headers.hmap -I/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/DerivedSources/i386 -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/DerivedSources -F/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator -include /Users/HmD/Documents/ABTagView/Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch -MMD -MT dependencies -MF /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView.d --serialize-diagnostics /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView.dia -c /Users/HmD/Documents/ABTagView/ABTagView/ABTagView.m -o /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView.o36"33333982-B1D2-410C-BDB3-92252A2F645C-
+b49B6CB56-C7AA-49E6-97FC-9DBB0029F7C1
+
+CCompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagViewDelegate.o /Users/HmD/Documents/ABTagView/ABTagView/ABTagViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTextView.o /Users/HmD/Documents/ABTagView/ABTagView/ABTextView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVAppDelegate.o /Users/HmD/Documents/ABTagView/ABTagView/TVAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417544936.839721
+e417544937.166011
+r1
+xCompileC
+xBuild/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVAppDelegate.o
+x/Users/HmD/Documents/ABTagView/ABTagView/TVAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/HmD/Documents/ABTagView/ABTagView/TVAppDelegate.m
+d/Users/HmD/Documents/ABTagView/ABTagView/TVAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/HmD/Documents/ABTagView/ABTagView/TVAppDelegate.m212"CompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVAppDelegate.o ABTagView/TVAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera6f1d7e83ae3b841^7f832ae93ae3b841^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/HmD/Documents/ABTagView/ABTagView/TVAppDelegate.m0000000000000000^3605"CompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVAppDelegate.o ABTagView/TVAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/HmD/Documents/ABTagView    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/HmD/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-generated-files.hmap -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-own-target-headers.hmap -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-all-target-headers.hmap -iquote /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-project-headers.hmap -I/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/DerivedSources/i386 -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/DerivedSources -F/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator -include /Users/HmD/Documents/ABTagView/Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch -MMD -MT dependencies -MF /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVAppDelegate.d --serialize-diagnostics /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVAppDelegate.dia -c /Users/HmD/Documents/ABTagView/ABTagView/TVAppDelegate.m -o /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVAppDelegate.o36"B057CB82-CDB2-4DF0-942E-BB35C4965345-
+bD465781D-F43B-42F2-82DC-F164FC71508E
+
+CCompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVViewController.o /Users/HmD/Documents/ABTagView/ABTagView/TVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417548559.465590
+e417548559.653657
+r1
+xCompileC
+xBuild/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVViewController.o
+x/Users/HmD/Documents/ABTagView/ABTagView/TVViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/HmD/Documents/ABTagView/ABTagView/TVViewController.m
+d/Users/HmD/Documents/ABTagView/ABTagView/TVViewController.h
+d/Users/HmD/Documents/ABTagView/ABTagView/ABTagView.h
+d/Users/HmD/Documents/ABTagView/ABTagView/ABTagViewDelegate.h
+d/Users/HmD/Documents/ABTagView/ABTagView/ABTag.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/HmD/Documents/ABTagView/ABTagView/TVViewController.m218"CompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVViewController.o ABTagView/TVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfd4e770f49e3b841^6556a70f49e3b841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/HmD/Documents/ABTagView/ABTagView/TVViewController.m0000000000000000^3623"CompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVViewController.o ABTagView/TVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/HmD/Documents/ABTagView    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/HmD/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-generated-files.hmap -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-own-target-headers.hmap -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-all-target-headers.hmap -iquote /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-project-headers.hmap -I/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/DerivedSources/i386 -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/DerivedSources -F/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator -include /Users/HmD/Documents/ABTagView/Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch -MMD -MT dependencies -MF /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVViewController.d --serialize-diagnostics /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVViewController.dia -c /Users/HmD/Documents/ABTagView/ABTagView/TVViewController.m -o /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVViewController.o36"4B664D8B-183F-4EF9-9543-1FCD24D92488-
+b6F374FDC-0223-4E1E-9B1E-F5FFC1B08DF4
+
+CCompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/main.o /Users/HmD/Documents/ABTagView/ABTagView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417544936.841432
+e417544937.159175
+r1
+xCompileC
+xBuild/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/main.o
+x/Users/HmD/Documents/ABTagView/ABTagView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/HmD/Documents/ABTagView/ABTagView/main.m
+d/Users/HmD/Documents/ABTagView/ABTagView/TVAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Users/HmD/Documents/ABTagView/ABTagView/main.m194"CompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/main.o ABTagView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerad87d7e83ae3b841^e9d528e93ae3b841^---0#0#1#-19%DVTDocumentLocation2@54"file:///Users/HmD/Documents/ABTagView/ABTagView/main.m0000000000000000^3551"CompileC Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/main.o ABTagView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/HmD/Documents/ABTagView    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/HmD/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-generated-files.hmap -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-own-target-headers.hmap -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-all-target-headers.hmap -iquote /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-project-headers.hmap -I/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/DerivedSources/i386 -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/DerivedSources -F/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator -include /Users/HmD/Documents/ABTagView/Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch -MMD -MT dependencies -MF /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/main.dia -c /Users/HmD/Documents/ABTagView/ABTagView/main.m -o /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/main.o36"BF94C7AA-0B94-46FB-AA2C-EBF052D6734B-
+bD465781D-F43B-42F2-82DC-F164FC71508E
+
+CCompileStoryboard /Users/HmD/Documents/ABTagView/ABTagView/Base.lproj/Main_iPad.storyboard
+s417548282.843508
+e417548285.090159
+r1
+xCompileStoryboard
+x/Users/HmD/Documents/ABTagView/ABTagView/Base.lproj/Main_iPad.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"CompileStoryboard ABTagView/Base.lproj/Main_iPad.storyboard59"CompileStoryboard ABTagView/Base.lproj/Main_iPad.storyboard7d06d8fa47e3b841^852417fd47e3b841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/HmD/Documents/ABTagView/ABTagView/Base.lproj/Main_iPad.storyboard0000000000000000^836"CompileStoryboard ABTagView/Base.lproj/Main_iPad.storyboard    cd /Users/HmD/Documents/ABTagView    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/Base.lproj/Main_iPad.storyboardc /Users/HmD/Documents/ABTagView/ABTagView/Base.lproj/Main_iPad.storyboard36"8316ED36-A5DA-4D0B-9038-B22F9E8B6E49-
+bDFD28645-4332-4F18-8E07-E9C6BB1FC2E4
+
+CCompileStoryboard /Users/HmD/Documents/ABTagView/ABTagView/Base.lproj/Main_iPhone.storyboard
+s417545971.357158
+e417545972.961559
+r1
+xCompileStoryboard
+x/Users/HmD/Documents/ABTagView/ABTagView/Base.lproj/Main_iPhone.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"CompileStoryboard ABTagView/Base.lproj/Main_iPhone.storyboard61"CompileStoryboard ABTagView/Base.lproj/Main_iPhone.storyboardaa805bf33ee3b841^3f39f6f43ee3b841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/HmD/Documents/ABTagView/ABTagView/Base.lproj/Main_iPhone.storyboard0000000000000000^842"CompileStoryboard ABTagView/Base.lproj/Main_iPhone.storyboard    cd /Users/HmD/Documents/ABTagView    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/Base.lproj/Main_iPhone.storyboardc /Users/HmD/Documents/ABTagView/ABTagView/Base.lproj/Main_iPhone.storyboard36"19C5FB0E-02FD-4E97-B50A-8275C06ED2ED-
+b87B94CD2-B597-45C5-8503-00F847DC058D
+
+CCopyStringsFile /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/en.lproj/InfoPlist.strings ABTagView/en.lproj/InfoPlist.strings
+s417545032.261325
+e417545032.292513
+r1
+xCopyStringsFile
+x/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/en.lproj/InfoPlist.strings
+xABTagView/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy ABTagView/en.lproj/InfoPlist.strings130"CopyStringsFile Build/Products/Debug-iphonesimulator/ABTagView.app/en.lproj/InfoPlist.strings ABTagView/en.lproj/InfoPlist.stringsbdfc42483be3b841^61e34a483be3b841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/HmD/Documents/ABTagView/ABTagView/en.lproj/InfoPlist.strings0000000000000000^585"CopyStringsFile Build/Products/Debug-iphonesimulator/ABTagView.app/en.lproj/InfoPlist.strings ABTagView/en.lproj/InfoPlist.strings    cd /Users/HmD/Documents/ABTagView    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/en.lproj -- ABTagView/en.lproj/InfoPlist.strings36"8E0F2998-6AC4-4D1D-B79E-D2414D1948E3-
+bA442B72F-2F8E-40C8-B3AA-8F3B34AF8652
+
+CGenerateDSYMFile /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app.dSYM /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView
+s417548559.728913
+e417548559.790409
+r1
+xGenerateDSYMFile
+x/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app.dSYM
+x/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Generate /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app.dSYM133"GenerateDSYMFile Build/Products/Debug-iphonesimulator/ABTagView.app.dSYM Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView19aaba0f49e3b841^3c68ca0f49e3b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app.dSYM/0000000000000000^649"GenerateDSYMFile Build/Products/Debug-iphonesimulator/ABTagView.app.dSYM Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView    cd /Users/HmD/Documents/ABTagView    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView -o /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app.dSYM36"202E3A94-CC4B-47B2-9B99-68F8A3EE6858-
+b6F374FDC-0223-4E1E-9B1E-F5FFC1B08DF4
+
+CLd /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView normal i386
+s417548559.655867
+e417548559.726821
+r1
+xLd
+x/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView
+xnormal
+xi386
+d/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTag.o
+d/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVAppDelegate.o
+d/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/main.o
+d/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView.o
+d/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/TVViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libdyld.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView75"Ld Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView normal i3867afba70f49e3b841^af27ba0f49e3b841^---0#0#1#--1361"Ld Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView normal i386    cd /Users/HmD/Documents/ABTagView    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator -F/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator -filelist /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/Objects-normal/i386/ABTagView_dependency_info.dat -o /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/ABTagView36"57A6E6FD-4FD5-48A6-8F44-428559FD9AC2-
+b6F374FDC-0223-4E1E-9B1E-F5FFC1B08DF4
+
+CProcessInfoPlistFile /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/Info.plist /Users/HmD/Documents/ABTagView/ABTagView/ABTagView-Info.plist
+s417545033.112334
+e417545033.115119
+r1
+xProcessInfoPlistFile
+x/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/Info.plist
+x/Users/HmD/Documents/ABTagView/ABTagView/ABTagView-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Process /Users/HmD/Documents/ABTagView/ABTagView/ABTagView-Info.plist113"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/ABTagView.app/Info.plist ABTagView/ABTagView-Info.plistb2da1c493be3b841^f7781d493be3b841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/HmD/Documents/ABTagView/ABTagView/ABTagView-Info.plist0000000000000000^860"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/ABTagView.app/Info.plist ABTagView/ABTagView-Info.plist    cd /Users/HmD/Documents/ABTagView    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/HmD/Documents/ABTagView/ABTagView/ABTagView-Info.plist -genpkginfo /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/assetcatalog_generated_info.plist -o /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app/Info.plist36"4C78B1ED-E686-4F47-A4B3-7F15BE349487-
+bA442B72F-2F8E-40C8-B3AA-8F3B34AF8652
+
+CProcessPCH /Users/HmD/Documents/ABTagView/Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch.pch ABTagView/ABTagView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417544934.581106
+e417544936.837587
+r1
+xProcessPCH
+x/Users/HmD/Documents/ABTagView/Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch.pch
+xABTagView/ABTagView-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/HmD/Documents/ABTagView/ABTagView/ABTagView-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ABTagView/ABTagView-Prefix.pch219"ProcessPCH Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch.pch ABTagView/ABTagView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler49f294e63ae3b841^87fdd6e83ae3b841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/HmD/Documents/ABTagView/ABTagView/ABTagView-Prefix.pch0000000000000000^3474"ProcessPCH Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch.pch ABTagView/ABTagView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/HmD/Documents/ABTagView    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/HmD/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-generated-files.hmap -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-own-target-headers.hmap -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-all-target-headers.hmap -iquote /Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/ABTagView-project-headers.hmap -I/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/DerivedSources/i386 -I/Users/HmD/Documents/ABTagView/Build/Intermediates/ABTagView.build/Debug-iphonesimulator/ABTagView.build/DerivedSources -F/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/HmD/Documents/ABTagView/Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch.dia -MMD -MT dependencies -MF /Users/HmD/Documents/ABTagView/Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch.d -c /Users/HmD/Documents/ABTagView/ABTagView/ABTagView-Prefix.pch -o /Users/HmD/Documents/ABTagView/Build/Intermediates/PrecompiledHeaders/ABTagView-Prefix-gonydldtbxsoebdbhnsfpwmgsusf/ABTagView-Prefix.pch.pch36"E168FF5D-7DF6-4FC2-AB16-E7DA11450011-
+bD465781D-F43B-42F2-82DC-F164FC71508E
+
+CProcessPCH /Users/HmD/Library/Developer/Xcode/DerivedData/ABTagView-hksgopyusxpcnsfwwakihxzrseab/Index/PrecompiledHeaders/ABTagView-Prefix-bzqmomzvsmueaddpeapjfzrmarye_ast/ABTagView-Prefix.pch.pch ABTagView/ABTagView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app
+s417548285.092563
+e417548285.099750
+r1
+xTouch
+x/Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Touch /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app56"Touch Build/Products/Debug-iphonesimulator/ABTagView.appa9c217fd47e3b841^834c1afd47e3b841^---0#0#1#--394"Touch Build/Products/Debug-iphonesimulator/ABTagView.app    cd /Users/HmD/Documents/ABTagView    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/HmD/Documents/ABTagView/Build/Products/Debug-iphonesimulator/ABTagView.app36"3E7ED763-D5CF-4316-BCEC-26EAF2523BEA-
+bDFD28645-4332-4F18-8E07-E9C6BB1FC2E4
+

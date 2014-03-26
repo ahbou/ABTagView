@@ -15,7 +15,7 @@
 
 //set tags array
 @property (nonatomic, strong) NSMutableArray *tags;
-//set font
+//tag design/UI
 @property (nonatomic, weak) UIFont  *selectedFont;
 @property (nonatomic, weak) UIColor *tagBackground;
 @property (nonatomic, weak) UIColor *tagBorderColor;

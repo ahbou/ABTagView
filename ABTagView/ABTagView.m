@@ -124,10 +124,6 @@
 #pragma mark - Methods
 
 -(void)setupUI{
-    self.backgroundColor        = self.backgroundColor;
-    self.opaque                 = NO;
-    self.autocorrectionType     = UITextAutocorrectionTypeNo;
-    self.borderStyle            = self.borderStyle;
 
     tags                        = [@[] mutableCopy];
 
@@ -137,6 +133,11 @@
 
     self.leftView               = _tagsView;
     self.leftViewMode           = UITextFieldViewModeAlways;
+    self.backgroundColor        = self.backgroundColor;
+    self.opaque                 = NO;
+    self.autocorrectionType     = UITextAutocorrectionTypeNo;
+    self.borderStyle            = self.borderStyle;
+
 
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(textFieldDidChange:)
@@ -158,8 +159,8 @@
     _tagsView.frame          = tagsFrame;
 
     int i =0;
-    for(NSString *txtTag in tags){
-        ABTag *tag              = [[ABTag alloc] initWithTag: txtTag andIndex:i];
+    for(NSString *strTags in tags){
+        ABTag *tag              = [[ABTag alloc] initWithTag: strTags andIndex:i];
         tag.enabled =YES;
         tag.userInteractionEnabled = YES;
 
@@ -178,7 +179,7 @@
 
         CGRect tagFrame         = tag.frame;
         tagFrame.origin.x       = _tagsView.frame.size.width + 4;
-        tagFrame.origin.y       = ((self.frame.size.height - tag.frame.size.height) / 2);
+        tagFrame.origin.y       = (self.frame.size.height - tag.frame.size.height) / 2;
         tag.frame               = tagFrame;
 
         tagsFrame               = _tagsView.frame;
@@ -193,7 +194,7 @@
     CGFloat missingWidth= (_tagsView.frame.size.width - self.frame.size.width + 40);
 
     if(missingWidth > 0){
-        // Remove old tags
+        // hide old tags
         for(ABTag *tag in _tagsView.subviews){
             if(missingWidth < 0)
                 break;
