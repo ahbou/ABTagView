@@ -7,8 +7,11 @@
 //
 
 #import "TVViewController.h"
+#import "ABTagView.h"
 
-@interface TVViewController ()
+@interface TVViewController () <ABTagViewDelegate>
+
+@property (weak) IBOutlet ABTagView *tagView;
 
 @end
 
