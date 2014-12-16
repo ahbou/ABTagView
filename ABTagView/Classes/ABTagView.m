@@ -239,6 +239,7 @@
         if([tagDelegate respondsToSelector:@selector(tagField:tagTapped:)])
             [tagDelegate tagField: self tagTapped:[sender tag]];
     }
+    [self deleteBackward];
     
 }
 
